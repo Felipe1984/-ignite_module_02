@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
+    "baseUrl": "src",
+    "rootDirs": ["components"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "react-jsx",                                
     "moduleResolution": "node",                  
@@ -16,5 +17,4 @@
     "typeRoots": ["./src/@types", "./node_modules/@types"]               
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules"]
 }
